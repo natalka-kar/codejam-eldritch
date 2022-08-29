@@ -1,0 +1,71 @@
+.container {
+  background-image: url("./assets/pic/home.png");
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.first-layer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.second-layer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.first-card {
+  width: 200px;
+  height: 260px;
+  background-image: url("./assets/pic/Azathoth.png");
+  background-size: contain;
+}
+.second-card {
+  width: 200px;
+  height: 260px;
+  background-image: url("./assets/pic/Cthulthu.png");
+  background-size: contain;
+}
+.third-card {
+  width: 200px;
+  height: 260px;
+  background-image: url("./assets/pic/IogSothoth.png");
+  background-size: contain;
+}
+.fourth-card {
+  width: 200px;
+  height: 260px;
+  background-image: url("./assets/pic/ShubNiggurath.png");
+  background-size: contain;
+}
+
+.levels {
+  display: none;
+}
+
+.levels.active {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mix {
+    display: flex;
+}
+
+.mix.delete {
+  display: none;
+  display: flex;
+}
